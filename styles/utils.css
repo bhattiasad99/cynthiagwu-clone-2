@@ -1,0 +1,10 @@
+.page-x {
+    padding-left: var(--horizontal-padding);
+    padding-right: var(--horizontal-padding);
+}
+
+.base-text {
+    font-weight: 500;
+    font-size: 2rem;
+    text-transform: uppercase;
+}

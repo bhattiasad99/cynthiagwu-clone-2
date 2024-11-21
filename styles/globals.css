@@ -1,0 +1,11 @@
+:root {
+  --primary: #0841DC;
+  --text: #ffffff;
+  --large-text: #A3A3A3;
+  --large-text-inverse: #5C5C5C;
+  --large-text-light: #909090;
+  --black: #000000;
+  --horizontal-padding: 3rem;
+  --hero-animation-delay: 1.4s;
+  --small-cursor-radius: 8px;
+}

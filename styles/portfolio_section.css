@@ -1,0 +1,49 @@
+.section--portfolio {
+    padding-top: 30rem;
+    display: flex;
+    gap: 4rem;
+    flex-direction: column;
+}
+
+.section--portfolio > * {
+    width: 90%;
+}
+
+.project_container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.divider {
+    background-color: var(--large-text-inverse);
+    height: 0.5px;
+}
+
+.heading-large {
+    transition: all 0.4s ease-out;
+}
+
+.project_container:hover .heading-large {
+    transform: translateX(50px);
+    color: var(--large-text-inverse);
+}
+
+.hover_img_container {
+    width: 273px;
+    height: 273px;
+    pointer-events: none;
+}
+
+.project_container .hover_img_container {
+    position: absolute;
+    z-index: 1;
+    /* display: none; */
+    opacity: 0;
+    transition: all 0.4s ease-out;
+}
+
+.project_container:hover .hover_img_container {
+    /* display: block; */
+}
