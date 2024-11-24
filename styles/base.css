@@ -13,7 +13,7 @@ body {
     color: var(--text);
     min-height: 100vh;
     height: 500vh;
-    cursor: none;
+    /* cursor: none; */
 }
 
 body, h1, h2, h3, p, button, input, a {
